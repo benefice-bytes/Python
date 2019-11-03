@@ -1,0 +1,34 @@
+1. initialize a string, and print
+      message = 'Hello World'
+     i). initilize a string, which contains single quote
+     "nazeer's world" (or) 'nazeer\'s world'
+    ii). initilize multiline string
+         """dfsfsffs
+          kjlkjljlj
+          """
+2. len('Hello') # length of a string
+3. access first char of string using index
+         i). access first 5 chars from a string
+        ii). access last 5 chars from a string
+4. convert to lower case##   variable.lower()
+     i). convert to upper case##    variable.upper()
+5. count of words ##  variable.count('Hello')
+6. find a word ##  variable.find('world')  # returns index 
+7. replace a word in the given string
+    a) observation: strings are immutable
+8. concatenation of two or three strings using + operator
+    a). concatenation of strings using place holder and format method
+         greeting = 'Hello'
+         name = 'Mounaa'
+         message = '{}, {}. Welcome!'.format(greeting, name)
+    ############ f strings ##############
+    python 3.6 and above will support f strings
+    message = f'{greeting}, {name}. Welcome!'
+9. you can explore more on strings with following command
+    name = 'mounaa'
+    print(dir(name)) # list out all attributes and methods you can call
+    print(help(str)) # list out all methods
+    print(help( str.lower ) ) # help on lower method
+
+     
+ 

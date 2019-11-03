@@ -1,0 +1,23 @@
+
+1. create a dictionary with name,age,course as keys
+    i). print dictionary
+   ii). read value from dict, using key
+  iii). read value from dict, using key, which is not existed
+        observation: throwing exception
+  iv). read value from dict, using get method
+   v). read value from dict, using get method (which is not existed key)
+        observation: returns None. (no exception)
+  vi). read value from dict, using get(key, 'not found') (which is not existed key)
+        observation: returns 'not found' (no exception)
+2. update value, using key
+3. update multiple key/value pairs using update(...) method
+4. pop a key from dict
+    i). read popped key from dict.
+5. len(dict). observation: length of dictionary (no.of keys in dict)
+6. get all keys of dict
+    a) get all values of dict
+    b) items(), which returns (key,value) tuples as a list
+7. loop through all keys
+    a) loop through key,value pairs from dict
+
+        

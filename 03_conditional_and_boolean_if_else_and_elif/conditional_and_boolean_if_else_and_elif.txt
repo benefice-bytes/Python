@@ -1,0 +1,52 @@
+comparisions:
+ Equal:		==
+ Not Equal:	!=
+ Greater Than:	>
+ Less Than:	<
+ Greater or Equal:	>=
+ Less or Equal:	<=
+ Object Identity:	is
+
+
+and
+or
+not
+
+####################
+  False values:
+       False
+       None
+       Zero of any numeric type
+       Any empty sequence. for ex: ' ', [], (), {}
+       Any empty mapping. for ex: {}
+######################################
+a = [1,2,3]
+b = [1,2,3]
+
+print(a == b) # returns True, both contents are same
+print(a is b) # returns False, both objects are not same, it checks object ref
+print(id(a)) # returns address of a
+print(id(b)) # returns address of b
+print(a is b) # it compares both id's equality
+
+print(a is b) # evaluated as ...  print (id(a) == id(b))
+####################################
+condition = True
+
+if condition:
+   print('Evaluated to True')
+else:
+   print('Evaluated to False')
+
+# do the following
+  1. execute above if, else by assigning
+      a) condition = False
+      b) condition = None
+      c) condition = 0
+      d) condition = 10
+      e) condition = '' # pair of empty single quotes
+      f) condition = []
+      g) condition = ()
+      h) condition = {}
+
+

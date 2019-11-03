@@ -1,0 +1,10 @@
+1. explain about exception handling mechanism in python
+2. 
+    try:
+         #supected statement
+    except Exception:
+         #handling code
+    else:
+         # if there is no exception raised in try block, else will be executed
+    finally:
+         # exception raised/not raised from try block, finally will be executed.

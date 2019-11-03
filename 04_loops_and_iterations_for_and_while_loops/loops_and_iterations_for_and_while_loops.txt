@@ -1,0 +1,15 @@
+1.)      nums = [1,2,3,4,5]
+    	    a). iterate through list and print the value
+	    b). use the following keywords in iteration
+	          i). break
+	         ii). continue
+2). for i in range(10):
+           print(i)
+3). for i in range(1, 10):
+           print(i)
+4). print values using nested for loop
+5). print values 1 to 5 using while loop
+     i) break 
+6). create infinite loop
+     i) press Ctrl+c (to cancel the iteration)
+

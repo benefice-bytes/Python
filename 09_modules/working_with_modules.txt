@@ -1,0 +1,19 @@
+1. create your own module
+   i). import your module, and call functions
+2. move your module to some other location on your machine
+   i). run your client code
+       observations: ModuleNotFoundError
+   ii). add following code in your client file
+         import sys
+         sys.path.append("d:\\intexdb\\mymodules\\")
+         ### my_module.py file location: "d:\\intexdb\\mymodules\\"  
+############################
+Excercises
+############################
+
+3. import random module
+4. import math module
+5. import datetime
+6. import calendar
+7. import os
+      

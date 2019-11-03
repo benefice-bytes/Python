@@ -1,0 +1,56 @@
+1. initialize a list
+      courses = ['Maths', 'Physics', 'Chemistry', 'Comp.Sci']
+    i). print list
+   ii). len(list)
+2. access list using index 0, 1, 2,... and -1,-2,-3
+    i). read first two items
+    ii). read 0 to 3 indices
+    iii). read from 3 index to last
+    iv). read from 2 to 5 indices
+3. append item to list
+4. insert item in list, with index
+5. pop item from list (which can be use case of stack)
+    i) get the popped item from list
+6. reverse the give list
+7. take two lists, and insert second list in first list using index,
+    display the first list
+    use extend function to extend the list
+8. remove item from list
+9. sort items of list
+    i) sort items of list, with keyword arg... reverse=True
+    ii) sort items of list
+         a) list of strings
+         b) list of integers
+    iii)rollback your original list using "sorted" function
+10. list_1 is a collection of strings, list_2 is created from list_1
+    a) insert one item in list_1
+    b) print list_1, list_2 ( observation list is mutable)
+11. iterate through list using for loop
+      a) print each item in list
+      b) print each item in the list with index (use enumerate function)
+///////////////////////////////////
+1. initialize a tuple, and print the tuple
+2. create tuple_2 from tuple_1
+    a) append an item in the tuple (error: observeration tuple is immutable)
+///////////////////////////////////////
+1. initialize set, and print the set
+   a) observation: ( items are un-orderd)
+   b)initialize the set with duplicate items. (observation: duplicates not allowed)
+   c) append items, append duplicate item. (observation: duplicates not allowed)
+2. create two sets, do the following
+    1. intersection (common items of two sets)
+    2. union (all items of two sets, without duplicates)
+    3. difference (items of first set, which are not in second set)
+///////////////////////////////
+1. create empty list,tuple and set
+      i). list_1 = []   # empty list (implicit)
+     ii). list_2 = list()  # empty list (explicit)
+    iii). tuple_1 = () # empty set (implicit)
+    iv). tuple_2 = tuple() # empty set(explicit)
+     v). set_1 = {}  # it is not set, it is dictionary (implicit set not possible)
+    vi). set_2 = set() # explicit   
+          
+
+
+
+    

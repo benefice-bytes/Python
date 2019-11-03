@@ -1,0 +1,29 @@
+def  hello_func():
+       pass
+
+print(hello_func)
+print(hello_func() )
+
+1). def means definition
+2). define a function 
+     i). without arguments, without return statement
+    ii). withou arguments, with return statement
+   iii). with arguemnts, with return statement
+   iv). with default arguments
+3). explain positional arguments and keyword arguments
+4). explain variable length of positional args and keyword args
+      
+       def student_info(*args, **kwargs):
+             print(args)
+             print(kwargs)
+
+      student_info('Math', 'Comp.Sci', name='kaushee', age=5)
+      ######
+      courses = ['Math', 'Comp.Sci']
+      info = {'name' : 'Mounaa',  'age': 5}
+
+      student_info(courses, info)  # wrong interpretation
+      student_info(*courses, **info) # correct
+5). 
+
+
