@@ -1,0 +1,22 @@
+1. define an empty class
+    i) create two instances of the class
+    ii)print each instance
+2. add some fields(first,last,pay,email) to the instance
+    i) print the instance fields
+    observation: it will be more difficult to add each field to the instance, and accessing
+    them.
+3. create employee class, with constructor(first, last,pay) 
+    i) constructor creates email field
+    ii) create instance, by invoking the construtor.
+   iii)add fullname() method, which returns "{} {}".format(first, last)
+   iv) why 'self' is positional argument to each method. what is the background of 
+         method calling on each object ?
+    iv)observation both are some... do the following
+        emp_1.fullname()
+        Employee.fullname(emp_1)
+    background:- emp_1.fullname() converted as Employee.fullname(emp_1), that's why
+     def fullname(self):
+#########################
+1. how to define an empty class
+2. how to define a constructor, and how it will be called.
+3. why each method first positional argument is 'self'

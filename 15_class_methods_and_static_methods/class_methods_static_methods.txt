@@ -1,0 +1,24 @@
+1. Explore the difference between regular method, class method, and static method.
+
+    i)regular or instance methods are defined with first argument as 'self'.
+
+   ii)class method, signature is...
+       @classmethod #decorator
+        def set_raise_amount(cls, amount):
+               cls.raise_amount = amount # here raise_amount is class variable
+
+   iii) what are scenario's class methods are useful
+         a) update class variables data
+         b) class methods are useful in creating instances, other than constructors.
+              so, here class method looks like a factory method.
+
+    iv) regular (or) instance methods, pass instance automatically, instance is assigned 
+         to 'self' argument.
+
+    v) class methods pass automally, the class name, and assigned to 'cls' argument
+
+    vi) static methods will not pass anything.
+    vii) static methods are useful in coding utilities. static methods don't operate on instance
+           or class.
+           for ex:- Employee class has a satic method, which checks a given day is
+                        workday or not!!! 

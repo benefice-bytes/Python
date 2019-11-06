@@ -1,0 +1,12 @@
+1. What is class variable and instance variable?
+2. I have a class variable, I'm updating the value of class variable as..
+    i). Employee.variable += 1
+   ii). self.variable += 1
+   explain the above scenario.
+###################################
+a class variable, will be shared among instances.
+by default class variable is class specific means only one copy available.
+
+if any instance overrides class variable value, that instance will get a copy of the class variable, and class variable value is not applicable that instance. rest of the instances of 
+that class, still share the class variable.
+
