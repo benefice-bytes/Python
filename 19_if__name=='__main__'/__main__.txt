@@ -1,0 +1,2 @@
+1. If your project has N no. of  *.py files, how can you make any function as your 
+    '__main__' function
